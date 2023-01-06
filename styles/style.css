@@ -54,6 +54,7 @@ h1, h2, h3, h4, p {
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
+  z-index: 1;
 }
 
 .header__link {
@@ -94,14 +95,11 @@ h1, h2, h3, h4, p {
 }
 
 .two-columns__brief {
-  width: 175px;
-}
-
-.brief__title {
   color:#2f80ed;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
+  width: 175px;
 }
 
 .two-columns__main-text {
